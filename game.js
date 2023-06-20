@@ -13,7 +13,7 @@ $(".btn").on("click", function () {
     animatePress(userChosenColour)
 })
 
-// Checa se a desgraça já começou
+
 var start = false
 var level = 0;
 
