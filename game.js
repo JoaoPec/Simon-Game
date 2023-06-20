@@ -17,7 +17,7 @@ $(".btn").on("click", function () {
 var start = false
 var level = 0;
 
-$(document).on("keypress", function () {
+$(document).on("keypress click", function () {
 
     while (start === false) {
         $("h1").text("Level " + level)
@@ -80,7 +80,7 @@ function checkAnswer(currentLevel) {
 
 function startOver() {
 
-    Level = 0;
+    level = 0;
 
     gamePattern = [];
 
